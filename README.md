@@ -21,7 +21,8 @@ app to handle authentication.
      `http://api.rhi.zone-development/auth/github/callback`
 5. Click "Register application".
 6. Click "Generate a new client secret".
-7. Make a copy of the `.env.example` file and name it `.env`.
+7. Make a copy of this repo. 
+8. Take the `.env.example` file and name it `.env`.
    1. Paste the Client ID from GitHub as the value for `GITHUB_CLIENT_ID`.
    2. Paste the Client Secret from GitHub as the value for
       `GITHUB_CLIENT_SECRET`.
@@ -50,10 +51,11 @@ at once.
 1. [Install Docker Compose](https://docs.docker.com/compose/install/). For macOS
    and Windows users, Docker Compose comes with
    [Docker Desktop](https://www.docker.com/products/docker-desktop).
-2. Run `docker-compose up` to start the dev environment.
-3. Once the containers have started, visit http://rhi.zone-development/ in your
+2. Navigate to this directory in your terminal.  
+3. Run the command `docker-compose up` to start the dev environment.
+4. Once the containers have started, visit http://rhi.zone-development/ in your
    web browser to use the app.
-4. When finished developing, press `CTRL + C` to stop Docker Compose.
+5. When finished developing, press `CTRL + C` to stop Docker Compose.
 
 ### 4. Running the dev servers
 
